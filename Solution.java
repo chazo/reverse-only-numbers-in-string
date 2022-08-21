@@ -30,7 +30,7 @@ public class Solution{
     
   }
   
-  public boolean isNumber(int location, char[] chars){
+  public static boolean isNumber(int location, char[] chars){
   
     if(chars[location]>='1' && chars[location]<='9'){
       return true;
